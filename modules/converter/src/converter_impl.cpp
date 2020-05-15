@@ -15,13 +15,13 @@ Converter_impl::Converter_impl() : message_("") {}
 void Converter_impl::help(const char* appname, const char* message) {
     message_ =
         std::string(message) +
-          "This is a temperature converter application.\n\n" +
-          "Please provide arguments in the following format:\n\n"+
+        "This is a temperature converter application.\n\n" +
+        "Please provide arguments in the following format:\n\n"+
 
-          "  $ " + appname + " <celsius> <format>\n\n" +
+        "  $ " + appname + " <celsius> <format>\n\n" +
 
-          "Where <celsius> argument are double-precision number, " +
-          "and <format> is one of 'kelv', 'fahr', 'newt'.\n";
+        "Where <celsius> argument are double-precision number, " +
+        "and <format> is one of 'kelv', 'fahr', 'newt'.\n";
 }
 
 bool Converter_impl::validateNumberOfArguments(int argc, const char** argv) {

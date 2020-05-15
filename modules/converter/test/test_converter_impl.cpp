@@ -1,4 +1,4 @@
-// Copyright 2020 Egorov Danil 
+// Copyright 2020 Egorov Danil
 
 #include <gtest/gtest.h>
 
